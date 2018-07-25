@@ -1,0 +1,13 @@
+{
+  "short_name": "tinypopup.shop-pwa",
+  "name": "tinypopup.shop PWApp",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone"
+}
