@@ -4,12 +4,10 @@ import media from './media'
 import { spacing } from '../config/vars'
 
 const Container = styled.div`
-  padding-left:  ${spacing.gutter}em;
-  padding-right: ${spacing.gutter}em;
+  padding: 0 ${spacing.target_area - 0.25}em;
 
   ${media.s`
-    padding-left:  ${spacing.gutter * 2}em;
-    padding-right: ${spacing.gutter * 2}em;
+    padding: 0 ${spacing.target_area}em;
   `}
 `
 

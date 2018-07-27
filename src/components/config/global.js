@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components'
-import { fonts, colors } from './vars'
+import { fonts } from './vars'
 import media from '../utils/media'
 
 // eslint-disable-next-line
@@ -12,10 +12,9 @@ injectGlobal`
   }
 
   body {
-    font: 7vw/1 ${fonts.sans};
+    font: 7vw/1.1 ${fonts.sans};
     ${media.s`font-size: 4vw;`}
     ${media.m`font-size: 3vw;`}
-    padding: 0.5em;
   }
 
   a, button {
@@ -34,10 +33,13 @@ injectGlobal`
   a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 0.25vw solid currentColor;
   }
 
   .active {
-    color: ${colors.accent};
+    border-bottom: 0.075em solid currentColor;
+  }
+
+  p + p {
+    margin-top: 1em;
   }
 `
