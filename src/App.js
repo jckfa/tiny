@@ -34,7 +34,7 @@ const App = () => (
           <Gutters>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/wall" component={Wall} />
+            {/* <Route path="/wall" component={Wall} /> */}
           </Gutters>
         </Item>
         <Item>

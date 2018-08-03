@@ -3,11 +3,11 @@ import React from 'react'
 const About = () => (
   <main>
     <p>
-      We’re interested in the idea of the “souvenir”—who it’s for, how it’s represented, and what it’s capable of. We think souvenirs can be magical, but generally have found those in NYC to be passive objects; nostalgic of times / places / people / events / experiences that tourists can’t possibly have a personal connection to as these no longer exist. We’re interested in an alternative form; one that’s more specific and personal and participatory for the individual seeking such totems.
+      We’re interested in the idea of the “souvenir”—who it’s for, how it’s represented, and what it’s capable of. We think souvenirs can be magical, but generally have found those in NYC to be passive objects; nostalgic of times / places / people / events / experiences that tourists can’t possibly have a personal connection to as these no longer exist. We’re interested in an alternative form; one that’s more specific and personal and participatory. We want to offer tourists a commemorative totem of not just New York but their relationship to it.
     </p>
 
     <p>
-      <i>Today in New York</i> is a prompt. It is our attempt at offering tourists a platform to create mementos as opposed to simply buying them.
+      <i>Today in New York</i> is a prompt; we print each customer’s answer on his/her choice of a t-shirt or tote bag. On the back of each item is a receipt of sale with the following information: customer ID, product number, time of purchase, and weather.
     </p>
   </main>
 )

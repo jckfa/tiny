@@ -9,17 +9,20 @@ const Section = styled.section`
 const Basics = () => (
   <Section>
     <p>
+      Aug 13–17 2018<br/>
+      11AM–7PM
+    </p>
+    
+    <p>
       167 Canal St<br/>
       New York City<br/>
       NY 10013 USA
     </p>
 
     <p>
-      Aug 13–17 2018
-    </p>
-
-    <p>
-      <a href={site.instagram_url} target="_blank">@tinypopup</a>
+      <a href={site.instagram_url} target="_blank">
+        @tinypopup
+      </a>
     </p>
   </Section>
 )

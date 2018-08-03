@@ -34,9 +34,9 @@ const Section = styled.section`
 const Header = (props) => (
   <Shell id="top">
     <Section>
-      <A exact to="/">Index</A>
+      <A exact to="/">TINY</A>
       <A to="/about">About</A>
-      <A to="/wall">Wall</A>
+      {/* <A to="/wall">Wall</A> */}
     </Section>
     <Section>
       <time></time>
