@@ -6,8 +6,7 @@ import {
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
-// import Wall from './components/Wall'
-import NoMatch from './components/NoMatch'
+import NotFound from './components/NotFound'
 import Basics from './components/Basics'
 import Footer from './components/Footer'
 import styled from 'styled-components'
@@ -39,8 +38,7 @@ const App = () => (
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
-              {/* <Route path="/wall" component={Wall} /> */}
-              <Route component={NoMatch} />
+              <Route component={NotFound} />
             </Switch>
           </Gutters>
         </Item>

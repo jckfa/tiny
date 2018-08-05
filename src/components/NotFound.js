@@ -1,7 +1,6 @@
 import React from 'react'
-import Heading from './utils/Heading'
 
-const NoMatch = ({ location }) => (
+const NoFound = ({ location }) => (
   <main>
     <p>
       404. No match for {location.pathname}
@@ -9,4 +8,4 @@ const NoMatch = ({ location }) => (
   </main>
 )
 
-export default NoMatch
+export default NoFound
