@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { spacing } from './config/vars'
 import media from './utils/media'
 import Gutters from './utils/Gutters'
 import { site } from './config/vars'

@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 
 const Logo = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.9 55.5">

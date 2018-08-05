@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from './utils/Heading'
+// import Heading from './utils/Heading'
 
 const Home = () => (
   <main>
