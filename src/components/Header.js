@@ -7,11 +7,11 @@ import { spacing } from './config/vars'
 
 const Shell = styled.header`
   ${'' /* background-color: orange; */}
-  margin-bottom: 2em;
   display: flex;
   flex-direction: column;
 
   ${media.m`
+    margin-bottom: 3em;
     flex-direction: row;
   `}
 `
