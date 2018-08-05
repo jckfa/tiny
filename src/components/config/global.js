@@ -39,6 +39,10 @@ injectGlobal`
     border-bottom: 0.075em solid currentColor;
   }
 
+  p {
+    word-break: break-all;
+  }
+
   p + p {
     margin-top: 1em;
   }
