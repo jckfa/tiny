@@ -1,29 +1,38 @@
 import React from 'react'
 import styled from 'styled-components'
 import media from './utils/media'
-import Gutters from './utils/Gutters'
 import { site } from './config/vars'
 import Bird from './Bird'
 
 const Foot = styled.footer`
   text-align: center;
+  ${'' /* background-color: green; */}
+  display: flex;
+  width: 100%;
 
   & a {
-    padding: 1em 0;
+    width: 100%;
+    padding: 0.75em;
     display: inline-block;
+    ${'' /* background-color: red; */}
   }
 
   ${media.m`
+    width: 50%;
+    justify-content: space-between;
     position: fixed;
-    left:  50vw;
+    left: 50vw;
     bottom: 0;
+
+    & a {
+      width: auto;
+    }
   `}
 `
 
 const Birdhouse = styled.div`
   height: 0.75em;
   display: inline-block;
-  padding: 0 1em;
 
   & svg {
     height: 100%;
@@ -32,13 +41,12 @@ const Birdhouse = styled.div`
 
 const Footer = () => (
   <Foot>
-    <Gutters>
-      <a href={"mailto:" + site.email + "?subject=Today in New York"} target="_blank">
-        Contact
-      </a>
-      <a href="http://verdes.nyc" target="_blank"><Birdhouse><Bird/></Birdhouse>
-      </a>
-    </Gutters>
+    <a href={"mailto:" + site.email + "?subject=Today in New York"} target="_blank">
+      Contact
+    </a>
+
+    <a href="http://verdes.nyc" target="_blank"><Birdhouse><Bird/></Birdhouse>
+    </a>
   </Foot>
 )
 
