@@ -14,7 +14,7 @@ const Img = styled.img`
 const Home = () => (
   <main>
     <p>
-      TINY is an experimental pop-up shop selling unique t-shirts and tote bags that answer the prompt <i>Today in New York</i>.
+      TINY is an experimental pop-up shop selling customized t-shirts and tote bags that consider how much more a souvenir can be.
     </p>
 
     <Img src="/assets/1.gif" />
