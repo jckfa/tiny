@@ -1,4 +1,10 @@
 import React from 'react'
+import Heading from './utils/Heading'
+import styled from 'styled-components'
+
+const List = styled.ul`
+  list-style: none;
+`
 
 const About = () => (
   <main>
@@ -9,6 +15,14 @@ const About = () => (
     <p>
       <i>Today in New York</i> is a prompt; we print each customer’s answer on his/her choice of a t-shirt or tote bag. On the back of each item is a receipt of sale with the following information: customer ID, product number, time of purchase, and weather.
     </p>
+
+    <Heading>Press</Heading>
+
+    <List>
+      <li>
+        <a href="https://coolhunting.com/design/verdes-pop-up-shop/" target="_blank">Cool Hunting</a>
+      </li>
+    </List>
   </main>
 )
 

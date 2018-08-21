@@ -5,7 +5,7 @@ const Heading = styled.div`
   margin-left: 1em;
   margin-top: 1em;
 
-  & + p {
+  & + p, & + ul {
     padding-top: 1em;
   }
 `
