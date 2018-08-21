@@ -12,11 +12,13 @@ const Basics = () => (
       Aug 13–17 2018<br/>
       11AM–7PM
     </p>
-    
+
     <p>
-      167 Canal St<br/>
-      New York City<br/>
-      NY 10013 USA
+      <a href="https://goo.gl/maps/AZb2qXdGLaw" target="_blank">
+        167 Canal St<br/>
+        New York City<br/>
+        NY 10013 USA
+      </a>
     </p>
 
     <p>
