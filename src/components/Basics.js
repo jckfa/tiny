@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { site } from './config/vars'
+import Alert from './utils/Alert'
 
 const Section = styled.section`
   text-transform: uppercase;
@@ -10,7 +11,8 @@ const Basics = () => (
   <Section>
     <p>
       Aug 13–17 2018<br/>
-      11AM–7PM
+      11AM–7PM<br/>
+      <Alert>Closed ☹</Alert>
     </p>
 
     <p>
