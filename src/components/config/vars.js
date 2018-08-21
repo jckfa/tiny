@@ -6,7 +6,8 @@ export const site = {
 }
 
 export const colors = {
-  accent: 'green'
+  accent: 'green',
+  meta: 'rgba(0, 0, 0, .2)'
 }
 
 export const fonts = {

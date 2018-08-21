@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components'
-import { fonts } from './vars'
+import { colors, fonts } from './vars'
 import media from '../utils/media'
 
 // eslint-disable-next-line
@@ -33,6 +33,11 @@ injectGlobal`
   a {
     color: inherit;
     text-decoration: none;
+
+    &[href^="http"]:not(#bird)::after {
+      content: "↗";
+      color: ${colors.meta};
+    }
   }
 
   .active {
