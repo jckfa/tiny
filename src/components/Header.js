@@ -3,7 +3,7 @@ import { NavLink as A } from 'react-router-dom';
 import styled from 'styled-components'
 import media from './utils/media'
 import time from './time'
-import { spacing } from './config/vars'
+import { site, spacing } from './config/vars'
 
 const Shell = styled.header`
   ${'' /* background-color: orange; */}
@@ -37,6 +37,7 @@ const Header = (props) => (
       <A exact to="/">TINY</A>
       <A to="/about">About</A>
       {/* <A to="/wall">Wall</A> */}
+      <a href={site.forms} target="_blank">Forms</a>
     </Section>
     <Section>
       <time></time>
