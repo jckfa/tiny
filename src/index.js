@@ -1,9 +1,12 @@
 import React from 'react'
-import { render } from 'react-snapshot'
+import ReactDOM from 'react-dom';
 import App from './App'
 import './components/config/global'
+import registerServiceWorker from './registerServiceWorker';
 
-render(
+ReactDOM.render(
   <App />,
   document.querySelector('#root')
 )
+
+registerServiceWorker()
