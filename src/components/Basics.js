@@ -2,9 +2,25 @@ import React from 'react'
 import styled from 'styled-components'
 import { site } from './config/vars'
 import Alert from './utils/Alert'
+import Logo from './Logo'
 
 const Section = styled.section`
   text-transform: uppercase;
+  position: relative;
+`
+
+const LogoShell = styled.div`
+  height: 1.85em;
+  display: inline-block;
+  background-color: black;
+  position: absolute;
+  top: 0.125em;
+  right: 0;
+
+  & svg {
+    fill: white;
+    height: 100%;
+  }
 `
 
 const Basics = () => (
@@ -28,6 +44,8 @@ const Basics = () => (
         @tinypopup
       </a>
     </p>
+
+    <LogoShell><Logo/></LogoShell>
   </Section>
 )
 
