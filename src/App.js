@@ -3,16 +3,16 @@ import {
   BrowserRouter as Router,
   Route,
   Switch } from "react-router-dom";
-import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
-import NotFound from './components/NotFound'
-import Basics from './components/Basics'
-import Footer from './components/Footer'
 import styled from 'styled-components'
+import Header from   './components/Header'
+import Footer from   './components/Footer'
+import Home from     './components/pages/Home'
+import About from    './components/pages/About'
+import NotFound from './components/pages/NotFound'
+import Basics from   './components/Basics'
 import Flexlist from './components/utils/Flexlist'
-import media from './components/utils/media'
-import Gutters from './components/utils/Gutters'
+import media from    './components/utils/media'
+import Gutters from  './components/utils/Gutters'
 
 const Main = styled(Flexlist)`
   flex-direction: column;
