@@ -15,6 +15,10 @@ injectGlobal`
     font: 7vw/1.1 ${fonts.sans};
     ${media.s`font-size: 4vw;`}
     ${media.m`font-size: 3vw;`}
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   a, button {
