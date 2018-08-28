@@ -45,7 +45,7 @@ const Footer = () => (
       Contact
     </a>
 
-    <a href="http://verdes.nyc" target="_blank" id="bird"><Birdhouse><Bird/></Birdhouse>
+    <a href="http://verdes.nyc" target="_blank" rel="noopener noreferrer" id="bird"><Birdhouse><Bird/></Birdhouse>
     </a>
   </Foot>
 )

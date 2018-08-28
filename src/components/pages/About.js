@@ -20,7 +20,7 @@ const About = () => (
 
     <List>
       <li>
-        <a href="https://coolhunting.com/design/verdes-pop-up-shop/" target="_blank">Cool Hunting</a>
+        <a href="https://coolhunting.com/design/verdes-pop-up-shop/" target="_blank" rel="noopener noreferrer">Cool Hunting</a>
       </li>
     </List>
   </main>

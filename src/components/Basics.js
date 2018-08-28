@@ -44,7 +44,7 @@ const Basics = () => (
     </p>
 
     <p>
-      <a href="https://goo.gl/maps/AZb2qXdGLaw" target="_blank">
+      <a href="https://goo.gl/maps/AZb2qXdGLaw" target="_blank" rel="noopener noreferrer">
         167 Canal St<br/>
         New York City<br/>
         NY 10013 USA
@@ -52,7 +52,7 @@ const Basics = () => (
     </p>
 
     <p>
-      <a href={site.instagram_url} target="_blank">
+      <a href={site.instagram_url} target="_blank" rel="noopener noreferrer">
         @tinypopup
       </a>
     </p>
