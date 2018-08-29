@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { site } from './config/vars'
 import media from './utils/media'
 import Alert from './utils/Alert'
+import Heading from './utils/Heading'
 import Logo from './Logo'
 
 const Section = styled.section`
@@ -15,6 +16,10 @@ const Section = styled.section`
     border-top: none;
     padding-top: 0;
   `}
+`
+
+const List = styled.ul`
+  list-style: none;
 `
 
 const LogoShell = styled.div`
@@ -56,6 +61,18 @@ const Basics = () => (
         @tinypopup
       </a>
     </p>
+
+    <Heading>Press</Heading>
+
+    <List>
+      <li>
+        <a href="http://officemagazine.net/today-new-york" target="_blank" rel="noopener noreferrer">Office Magazine</a>
+      </li>
+
+      <li>
+        <a href="https://coolhunting.com/design/verdes-pop-up-shop/" target="_blank" rel="noopener noreferrer">Cool Hunting</a>
+      </li>
+    </List>
 
     <LogoShell><Logo/></LogoShell>
   </Section>

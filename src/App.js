@@ -16,6 +16,7 @@ import Gutters from  './components/utils/Gutters'
 
 const Main = styled(Flexlist)`
   flex-direction: column;
+  margin-bottom: 2em;
 
   ${media.m`
     flex-direction: row;
