@@ -1,9 +1,12 @@
 import { injectGlobal } from 'styled-components'
 import { colors, fonts } from './vars'
 import media from '../utils/media'
+import webfont from './webfont'
 
 // eslint-disable-next-line
 injectGlobal`
+  ${webfont}
+
   * {
     padding: 0;
     margin: 0;
@@ -15,6 +18,9 @@ injectGlobal`
     font: 7vw/1.1 ${fonts.sans};
     ${media.s`font-size: 4vw;`}
     ${media.m`font-size: 3vw;`}
+
+    font-variant-numeric: slashed-zero;
+    font-feature-settings: "ss03";
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;

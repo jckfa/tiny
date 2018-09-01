@@ -43,8 +43,8 @@ const LogoShell = styled.div`
 const Basics = () => (
   <Section>
     <p>
-      Aug 13–17 2018<br/>
-      11AM–7PM<br/>
+      Aug 13→17 2018<br/>
+      11AM→7PM<br/>
       <Alert>Closed ☹</Alert>
     </p>
 

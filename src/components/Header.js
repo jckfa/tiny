@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink as A } from 'react-router-dom';
 import styled from 'styled-components'
 import media from './utils/media'
+// eslint-disable-next-line
 import time from './time'
 import { site, spacing } from './config/vars'
 
@@ -31,6 +32,10 @@ const Section = styled.section`
   }
 `
 
+const Time = styled.time`
+  font-variant-numeric: tabular-nums slashed-zero;
+`
+
 const Header = (props) => (
   <Shell id="top">
     <Section>
@@ -40,7 +45,7 @@ const Header = (props) => (
       <a href={site.forms} target="_blank">Forms</a>
     </Section>
     <Section>
-      <time></time>
+      <Time></Time>
     </Section>
   </Shell>
 )

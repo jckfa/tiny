@@ -45,7 +45,7 @@ function tick() {
                 day + " " +
                 h + ":" +
                 m + ":" +
-                s + " " +
+                s +
                 ampm,
       content = document.querySelector("time");
 

@@ -13,7 +13,7 @@ export const colors = {
 }
 
 export const fonts = {
-  sans: 'arial, BlinkMacSystemFont, "-apple-system", "helvetica neue", helvetica, sans-serif',
+  sans: 'favoritregular, arial, BlinkMacSystemFont, "-apple-system", "helvetica neue", helvetica, sans-serif',
 }
 
 export const spacing = {
