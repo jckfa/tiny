@@ -3,7 +3,7 @@ export const site = {
   description: `Today in New York is an experimental pop-up shop operating on Canal Street for five days in August.`,
   instagram_url: 'https://instagram.com/tinypopup',
   email: 'jack.fahnestock@verdes.nyc',
-  forms: 'https://flic.kr/s/aHsmoJfJEe'
+  flickr: 'https://www.flickr.com/photos/tinypopup/albums'
 }
 
 export const colors = {

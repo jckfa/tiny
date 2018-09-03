@@ -42,7 +42,7 @@ const Header = (props) => (
       <A exact to="/">TINY</A>
       <A to="/about">About</A>
       {/* <A to="/wall">Wall</A> */}
-      <a href={site.forms} target="_blank">Forms</a>
+      <a href={site.flickr} target="_blank">Photos</a>
     </Section>
     <Section>
       <Time></Time>
