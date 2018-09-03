@@ -4,7 +4,7 @@ import { site } from './config/vars'
 import media from './utils/media'
 import Alert from './utils/Alert'
 import Heading from './utils/Heading'
-import Logo from './Logo'
+import Logo2 from './Logo2'
 
 const Section = styled.section`
   text-transform: uppercase;
@@ -74,7 +74,7 @@ const Basics = () => (
       </li>
     </List>
 
-    <LogoShell><Logo/></LogoShell>
+    <LogoShell><Logo2/></LogoShell>
   </Section>
 )
 
