@@ -1,21 +1,11 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import { colors, fonts } from '../config/vars'
-import media from './media'
 
 const Bar = styled.div`
-  height: 7vh;
-  line-height: 7.2vh;
-  font-size: 4.5vh;
-  color: ${colors.light};
-  background-color: ${colors.dark};
+  color: white;
+  background-color: black;
   width: 100%;
   overflow: hidden;
-
-  ${media.m`
-    height: 5.5vh;
-    line-height: 5.6vh;
-  `}
 `
 
 const Container = styled.div`
@@ -28,29 +18,18 @@ const marqueeLeft = keyframes`
 `
 
 const Text = styled.div`
-  font-family: ${fonts.sans};
-  text-transform: none;
+  ${'' /* line-height: 1.4; */}
+  padding: 0.2em 0 0.1em;
+  text-transform: uppercase;
   display: inline-block;
   animation: ${marqueeLeft} 40s linear infinite;
-
-  & span {
-    padding-right: 6vw;
-    display: inline-block;
-  }
 `
 
 const Marquee = (props) => (
   <Bar>
     <Container>
       <Text>
-        {props.children}
-        {props.children}
-        {props.children}
-        {props.children}
-        {props.children}
-        {props.children}
-        {props.children}
-        {props.children}
+        {props.string.repeat(10)}
       </Text>
     </Container>
   </Bar>
