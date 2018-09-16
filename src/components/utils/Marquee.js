@@ -21,6 +21,7 @@ const Text = styled.div`
   ${'' /* line-height: 1.4; */}
   padding: 0.2em 0 0.1em;
   text-transform: uppercase;
+  font-feature-settings: "case" 1;
   display: inline-block;
   animation: ${marqueeLeft} 40s linear infinite;
 `

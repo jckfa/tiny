@@ -33,7 +33,7 @@ const Item = styled.li`
 const App = () => (
   <Router>
     <div>
-      <Marquee string="Custom Souvenirs ● "/>
+      <Marquee string="Custom Souvenirs  "/>
       <Header/>
       <Main>
         <Item>
