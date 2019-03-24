@@ -1,10 +1,10 @@
-import { injectGlobal } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 import { colors, fonts } from './vars'
 import media from '../utils/media'
 import webfont from './webfont'
 
 // eslint-disable-next-line
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   ${webfont}
 
   * {
@@ -62,3 +62,5 @@ injectGlobal`
     margin-top: 1em;
   }
 `
+
+export default GlobalStyle

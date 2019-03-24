@@ -14,6 +14,7 @@ import Flexlist from './components/utils/Flexlist'
 import media from    './components/utils/media'
 import Gutters from  './components/utils/Gutters'
 import Marquee from  './components/utils/Marquee'
+import GlobalStyle from './components/config/global'
 
 const Main = styled(Flexlist)`
   flex-direction: column;
@@ -32,6 +33,7 @@ const Item = styled.li`
 
 const App = () => (
   <Router>
+    <GlobalStyle/>
     <div>
       <Marquee string="Custom Souvenirs  "/>
       <Header/>
