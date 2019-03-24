@@ -41,7 +41,7 @@ const Birdhouse = styled.div`
 
 const Footer = () => (
   <Foot>
-    <a href={"mailto:" + site.email + "?subject=Today in New York"} target="_blank">
+    <a href={"mailto:" + site.email + "?subject=Today in New York"} target="_blank" rel="noopener noreferrer">
       Contact
     </a>
 
